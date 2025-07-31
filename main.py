@@ -17,7 +17,7 @@ custom_config = r'-c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyz\ ABCDEFG
 spell = Speller(lang="it",only_replacements=True)
 
 print("Converto il pdf in immagini...")
-ocr.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+ocr.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 pdffile = "docs.pdf"
 doc = converter.open(pdffile)
 
